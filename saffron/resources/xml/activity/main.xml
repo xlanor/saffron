@@ -1,0 +1,30 @@
+<brls:AppletFrame headerHidden="false" footerHidden="false">
+    <brls:TabFrame
+        id="main/tabFrame"
+        title="Saffron"
+        grow="1.0">
+
+        <brls:Tab label="Home">
+            <HomeTab/>
+        </brls:Tab>
+
+        <brls:Tab label="Collections">
+            <CollectionsTab/>
+        </brls:Tab>
+
+        <brls:Separator/>
+
+        <brls:Tab label="Servers">
+            <ServerListTab/>
+        </brls:Tab>
+
+        <brls:Tab label="Settings">
+            <SettingsTab/>
+        </brls:Tab>
+
+        <brls:Tab label="Config">
+            <ConfigViewTab/>
+        </brls:Tab>
+
+    </brls:TabFrame>
+</brls:AppletFrame>

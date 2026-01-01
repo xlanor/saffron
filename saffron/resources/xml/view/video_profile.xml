@@ -1,0 +1,105 @@
+<brls:Box
+    axis="column"
+    backgroundColor="@theme/brls/backdrop"
+    padding="15"
+    cornerRadius="8"
+    width="450">
+
+    <!-- Source -->
+    <brls:Label
+        textColor="#FFFFFF"
+        marginBottom="8"
+        fontSize="18"
+        text="Source" />
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="File:" />
+        <brls:Label id="profile/source/file" textColor="#AAAAAA" fontSize="14" grow="1" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Resolution:" />
+        <brls:Label id="profile/source/res" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Video:" />
+        <brls:Label id="profile/source/video" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Audio:" />
+        <brls:Label id="profile/source/audio" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="12" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Bitrate:" />
+        <brls:Label id="profile/source/bitrate" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <!-- Video -->
+    <brls:Label
+        textColor="#FFFFFF"
+        marginBottom="8"
+        fontSize="18"
+        text="Video" />
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Resolution:" />
+        <brls:Label id="profile/video/res" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Codec:" />
+        <brls:Label id="profile/video/codec" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Hardware Decode:" />
+        <brls:Label id="profile/video/hwdec" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Bitrate:" />
+        <brls:Label id="profile/video/bitrate" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="FPS:" />
+        <brls:Label id="profile/video/fps" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Dropped:" />
+        <brls:Label id="profile/video/drop" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="12" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="A-V Sync:" />
+        <brls:Label id="profile/video/avsync" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <!-- Audio -->
+    <brls:Label
+        textColor="#FFFFFF"
+        marginBottom="8"
+        fontSize="18"
+        text="Audio" />
+
+    <brls:Box axis="row" height="20" marginBottom="4" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Codec:" />
+        <brls:Label id="profile/audio/codec" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <brls:Box axis="row" height="20" marginBottom="12" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Channels:" />
+        <brls:Label id="profile/audio/channel" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+    <!-- Cache -->
+    <brls:Box axis="row" height="20" marginLeft="15">
+        <brls:Label textColor="#FFFFFF" fontSize="14" shrink="0" marginRight="8" text="Cache:" />
+        <brls:Label id="profile/cache" textColor="#AAAAAA" fontSize="14" />
+    </brls:Box>
+
+</brls:Box>

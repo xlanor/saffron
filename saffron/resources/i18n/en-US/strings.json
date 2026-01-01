@@ -1,0 +1,65 @@
+{
+    "app_title": "Saffron",
+    "main": {
+        "home": {
+            "title": "Home",
+            "continue_watching": "Continue Watching",
+            "recently_added": "Recently Added",
+            "on_deck": "On Deck"
+        },
+        "libraries": {
+            "title": "Libraries",
+            "movies": "Movies",
+            "tv_shows": "TV Shows"
+        },
+        "collections": {
+            "title": "Collections"
+        },
+        "playlists": {
+            "title": "Playlists"
+        },
+        "servers": {
+            "title": "Servers",
+            "refresh": "Refresh",
+            "sign_in": "Sign In",
+            "sign_out": "Sign Out",
+            "not_signed_in": "Not signed in",
+            "signed_in_as": "Signed in as {}",
+            "no_servers": "No servers found",
+            "no_servers_hint": "Sign in to Plex or ensure a local server is running",
+            "add_server": "Add Server",
+            "online": "Online",
+            "offline": "Offline",
+            "local": "Local",
+            "remote": "Remote"
+        },
+        "settings": {
+            "title": "Settings",
+            "playback": "Playback",
+            "video_quality": "Video Quality",
+            "subtitle_mode": "Subtitle Mode",
+            "account": "Account",
+            "about": "About"
+        }
+    },
+    "player": {
+        "play": "Play",
+        "pause": "Pause",
+        "resume": "Resume",
+        "stop": "Stop"
+    },
+    "media": {
+        "mark_watched": "Mark as Watched",
+        "mark_unwatched": "Mark as Unwatched",
+        "episodes": "{} Episodes",
+        "items": "{} Items"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "yes": "Yes",
+        "no": "No"
+    }
+}

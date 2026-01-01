@@ -1,0 +1,90 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    axis="column"
+    grow="1.0"
+    paddingTop="@style/brls/tab_frame/content_padding_top_bottom"
+    paddingLeft="@style/brls/tab_frame/content_padding_sides"
+    paddingRight="@style/brls/tab_frame/content_padding_sides"
+    paddingBottom="@style/brls/tab_frame/content_padding_top_bottom">
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        grow="1.0">
+
+        <brls:Box
+            width="auto"
+            height="auto"
+            axis="column"
+            grow="1.0">
+
+            <brls:Box
+                width="auto"
+                height="auto"
+                axis="row"
+                justifyContent="spaceBetween"
+                alignItems="center"
+                marginBottom="12">
+
+                <brls:Label
+                    id="server/accountLabel"
+                    text="Not signed in"
+                    fontSize="18"/>
+
+                <brls:Box
+                    width="auto"
+                    height="auto"
+                    axis="row">
+
+                    <brls:Button
+                        id="server/loginBtn"
+                        text="Sign In"
+                        style="bordered"
+                        marginRight="10"/>
+
+                    <brls:Button
+                        id="server/refreshBtn"
+                        text="Refresh"
+                        style="bordered"/>
+
+                </brls:Box>
+
+            </brls:Box>
+
+            <brls:Box
+                id="server/container"
+                width="auto"
+                height="auto"
+                axis="column"
+                grow="1.0"/>
+
+        </brls:Box>
+
+    </brls:ScrollingFrame>
+
+    <brls:Box
+        id="empty/message"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"
+        justifyContent="center"
+        alignItems="center"
+        paddingBottom="80"
+        visibility="gone">
+
+        <brls:Label
+            text="No servers found"
+            fontSize="20"
+            textColor="#888888"
+            marginBottom="10"/>
+
+        <brls:Label
+            text="Sign in or ensure a local server is running"
+            fontSize="14"
+            textColor="#666666"/>
+
+    </brls:Box>
+
+</brls:Box>

@@ -1,0 +1,65 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    axis="column"
+    grow="1.0"
+    paddingTop="@style/brls/tab_frame/content_padding_top_bottom"
+    paddingLeft="@style/brls/tab_frame/content_padding_sides"
+    paddingRight="@style/brls/tab_frame/content_padding_sides"
+    paddingBottom="@style/brls/tab_frame/content_padding_top_bottom">
+
+    <brls:Button
+        id="search/inputButton"
+        text="Search..."
+        width="100%"
+        marginBottom="20"/>
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        grow="1.0">
+
+        <brls:Box
+            id="search/resultsContainer"
+            width="auto"
+            height="auto"
+            axis="column"
+            grow="1.0"/>
+
+    </brls:ScrollingFrame>
+
+    <brls:Box
+        id="search/empty"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"
+        justifyContent="center"
+        alignItems="center"
+        paddingBottom="80">
+
+        <brls:Label
+            id="search/emptyLabel"
+            text="Search by title, actor, genre, or director"
+            fontSize="18"
+            textColor="#888888"/>
+
+    </brls:Box>
+
+    <brls:Box
+        id="search/spinner"
+        width="auto"
+        height="auto"
+        axis="column"
+        positionType="absolute"
+        positionTop="0"
+        positionLeft="0"
+        positionRight="0"
+        positionBottom="0"
+        justifyContent="center"
+        alignItems="center"
+        visibility="gone">
+        <brls:ProgressSpinner size="large"/>
+    </brls:Box>
+
+</brls:Box>

@@ -1,0 +1,71 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    axis="column"
+    grow="1.0"
+    paddingTop="@style/brls/tab_frame/content_padding_top_bottom"
+    paddingLeft="@style/brls/tab_frame/content_padding_sides"
+    paddingRight="@style/brls/tab_frame/content_padding_sides"
+    paddingBottom="@style/brls/tab_frame/content_padding_top_bottom">
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        grow="1.0">
+
+        <brls:Box
+            width="auto"
+            height="auto"
+            axis="column"
+            grow="1.0">
+
+            <brls:Box
+                id="home/container"
+                width="auto"
+                height="auto"
+                axis="column"
+                grow="1.0"/>
+
+        </brls:Box>
+
+    </brls:ScrollingFrame>
+
+    <brls:Box
+        id="home/empty"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"
+        justifyContent="center"
+        alignItems="center"
+        paddingBottom="80"
+        visibility="gone">
+
+        <brls:Label
+            text="Welcome to Saffron"
+            fontSize="24"
+            marginBottom="10"/>
+
+        <brls:Label
+            text="Select a server from the Servers tab to get started"
+            fontSize="16"
+            textColor="#888888"/>
+
+    </brls:Box>
+
+    <brls:Box
+        id="home/spinner"
+        width="auto"
+        height="auto"
+        axis="column"
+        positionType="absolute"
+        positionTop="0"
+        positionLeft="0"
+        positionRight="0"
+        positionBottom="0"
+        justifyContent="center"
+        alignItems="center">
+        <brls:ProgressSpinner size="large"/>
+    </brls:Box>
+
+</brls:Box>

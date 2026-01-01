@@ -1,0 +1,33 @@
+[submodule "references/akira"]
+	path = references/akira
+	url = git@github.com:xlanor/akira.git
+[submodule "references/switchfin"]
+	path = references/switchfin
+	url = git@github.com:dragonflylee/switchfin.git
+[submodule "saffron/library/borealis"]
+	path = saffron/library/borealis
+	url = git@github.com:xlanor/borealis.git
+[submodule "saffron/library/libuam"]
+	path = saffron/library/libuam
+	url = git@github.com:xlanor/libuam.git
+[submodule "saffron/library/mpv"]
+	path = saffron/library/mpv
+	url = git@github.com:xlanor/mpv.git
+	branch = switch
+[submodule "saffron/library/curl"]
+	path = saffron/library/curl
+	url = git@github.com:xlanor/curl.git
+	branch = libnx-vtls
+[submodule "references/plexgo"]
+	path = references/plexgo
+	url = https://github.com/LukeHagar/plexgo.git
+[submodule "references/moonlight-switch"]
+	path = references/moonlight-switch
+	url = git@github.com:XITRIX/Moonlight-Switch.git
+[submodule "references/plexapi"]
+	path = references/plexapi
+	url = https://github.com/pushingkarmaorg/python-plexapi.git
+[submodule "saffron/library/ffmpeg"]
+	path = saffron/library/ffmpeg
+	url = git@github.com:xlanor/FFmpeg.git
+	branch = ffmpeg-8.0

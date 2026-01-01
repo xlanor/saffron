@@ -1,0 +1,73 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    axis="column"
+    grow="1.0"
+    paddingTop="@style/brls/tab_frame/content_padding_top_bottom"
+    paddingLeft="@style/brls/tab_frame/content_padding_sides"
+    paddingRight="@style/brls/tab_frame/content_padding_sides"
+    paddingBottom="@style/brls/tab_frame/content_padding_top_bottom">
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        grow="1.0">
+
+        <brls:Box
+            width="auto"
+            height="auto"
+            axis="column"
+            grow="1.0">
+
+            <brls:Label
+                id="collections/serverLabel"
+                text="Select a server"
+                fontSize="18"
+                textColor="#888888"
+                marginBottom="20"/>
+
+            <brls:Box
+                id="collections/container"
+                width="auto"
+                height="auto"
+                axis="column"
+                grow="1.0"/>
+
+        </brls:Box>
+
+    </brls:ScrollingFrame>
+
+    <brls:Box
+        id="collections/empty"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"
+        justifyContent="center"
+        alignItems="center"
+        paddingBottom="80"
+        visibility="gone">
+
+        <brls:Label
+            text="No collections found"
+            fontSize="20"
+            textColor="#888888"/>
+
+    </brls:Box>
+
+    <brls:Box
+        id="collections/spinner"
+        width="auto"
+        height="auto"
+        axis="column"
+        positionType="absolute"
+        positionTop="0"
+        positionLeft="0"
+        positionRight="0"
+        positionBottom="0"
+        justifyContent="center"
+        alignItems="center">
+        <brls:ProgressSpinner size="large"/>
+    </brls:Box>
+
+</brls:Box>

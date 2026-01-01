@@ -1,0 +1,54 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    axis="column"
+    grow="1.0"
+    paddingTop="20"
+    paddingLeft="20"
+    paddingRight="20"
+    paddingBottom="20">
+
+    <brls:Label
+        id="library/serverLabel"
+        text="Select a server"
+        fontSize="18"
+        textColor="#888888"
+        marginBottom="10"/>
+
+    <brls:SelectorCell
+        id="library/selector"
+        title="Library"
+        marginBottom="15"/>
+
+    <brls:Box
+        id="library/content"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"/>
+
+    <brls:Box
+        id="library/empty"
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0"
+        justifyContent="center"
+        alignItems="center"
+        paddingBottom="80"
+        visibility="gone">
+
+        <brls:Label
+            text="No libraries available"
+            fontSize="20"
+            textColor="#888888"
+            marginBottom="10"/>
+
+        <brls:Label
+            text="Select a server from the Servers tab"
+            fontSize="14"
+            textColor="#666666"/>
+
+    </brls:Box>
+
+</brls:Box>

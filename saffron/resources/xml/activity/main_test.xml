@@ -1,0 +1,20 @@
+<brls:AppletFrame headerHidden="false" footerHidden="false">
+    <brls:TabFrame
+        id="main/tabFrame"
+        title="Saffron"
+        grow="1.0">
+
+        <brls:Tab label="Test">
+            <TestTab/>
+        </brls:Tab>
+
+        <brls:Tab label="Settings">
+            <SettingsTab/>
+        </brls:Tab>
+
+        <brls:Tab label="Servers">
+            <ServerListTab/>
+        </brls:Tab>
+
+    </brls:TabFrame>
+</brls:AppletFrame>
