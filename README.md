@@ -4,7 +4,7 @@ Saffron is a very rudimentary attempt at writing a Plex Client for the switch. W
 
 **Most of Saffron's code around the media playback comes from [switchfin](https://github.com/dragonflylee/switchfin). You can think of it as a fork that changed due to the plex API. Dragonflylee has figured out almost all of the hard problems short of the lack of documentation around how to actually use the plex api and build a usable client and I would like to thank him for it.**
 
-Per license the code will be Licensed as GPL3, but dragonflylee, xfangfang, and anyone in switchfin's credits are excluded from this, as I relied very heavily on them to do this. Thank you.
+Per license the code will be Licensed under the same license as switchfin, but dragonflylee, xfangfang, and anyone in switchfin's credits are excluded from this, as I relied very heavily on them to do this. Thank you.
 
 # Blurb
 
