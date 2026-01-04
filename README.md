@@ -91,7 +91,7 @@ I only have one server to test and my testing ability is limited, but this worke
 
 # Credits
 
-- [switchfin by dragonflylee, from which alot of code is taken:](github.com/dragonflylee/switchfin)
+- [switchfin by dragonflylee, from which alot of code is taken:](https://github.com/dragonflylee/switchfin)
 
 And from switchfin credits,
 - @devkitpro and switchbrew for [libnx](https://github.com/switchbrew/libnx)
